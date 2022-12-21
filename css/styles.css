@@ -11373,6 +11373,7 @@ body{
   background-image: url("../assets/white-textured-concrete.jpg"); 
   background-size: cover; 
   background-repeat: no-repeat;
+  padding-bottom: 0%;
 }
 
 .section-info .card-container {
@@ -11422,13 +11423,6 @@ body{
 }
 .section-info .card-container .card-plus{
   background-color: #48484d;
-}
-
-
-section.ChatCenter .chatcenter {
-  background: linear-gradient(90deg, rgba(65,0,148,1) 0%, rgba(65,102,145,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 /* DIVIDER BARS */
@@ -11545,6 +11539,9 @@ footer a:hover, footer a:active, footer a:focus {
     position: absolute;
     left: 0%;
     width: 100%;
+  }
+  .section-info .contacto-row .imagen {
+    width: 33%;
   }
   #contacto .social-bar {
     position: absolute;
